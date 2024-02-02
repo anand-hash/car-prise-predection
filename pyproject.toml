@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "car-price-prediction"
+version = "0.1.0"
+description = ""
+authors = ["MilosZivic75 <zivic.ra75.2018@uns.ac.rs>"]
+readme = "README.md"
+packages = [{include = "car_price_prediction"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.8.0"
+webdriver-manager = "^3.8.5"
+pandas = "^1.5.3"
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.1"
+prince = "^0.7.1"
+xgboost = "^1.7.3"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+kornia = "^0.6.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
